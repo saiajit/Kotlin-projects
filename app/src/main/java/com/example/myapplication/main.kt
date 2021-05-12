@@ -1,4 +1,6 @@
 package com.example.myapplication
 fun main() {
-    print("om")
+    var myname= "Sai ajit"
+    print("Hello $myname")
+
 }
