@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/q_pro_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/q_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/default_option_border_bd"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="What is JVM"
+            android:textSize="22sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_op_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Apple is a company"
+            android:textSize="22sp"
+            android:textColor="#34A560"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/default_option_border_bd"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_op_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Apple is a company"
+            android:textSize="22sp"
+            android:textColor="#34A560"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/default_option_border_bd"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_op_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Apple is a company"
+            android:textSize="22sp"
+            android:textColor="#34A560"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/default_option_border_bd"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_op_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Apple is a company"
+            android:textSize="22sp"
+            android:textColor="#34A560"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/default_option_border_bd"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/q_btn_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/q_btn_nxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_weight="1">
+
+        </Button>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
