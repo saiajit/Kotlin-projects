@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#C51A1A</color>
+    <color name="green">#1F7723</color>
+    <color name="pink">#F1D2D0</color>
+    <color name="pink_light">#F7EBEA</color>
+    <color name="button_bg">#2C3E50</color>
+    <!--in app color used -->
+
+    <color name="color_text_brown">#8F2927</color>
+
+    <color name="color_text_brown_two">#8F2927</color>
+    <color name="colorPrimary">#5280EB</color>
+    <color name="colorPrimaryDark">#5280EB</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+    <color name="color_grey">#1B1B194B</color>
+    <!--color used for text in app color  -->
+
+    <color name="color_divider_app">@color/color_grey</color>
+    <color name="transparent_a">#6D000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!--color used for text in app color  -->
+    <color name="color_f4">#F4FBFF</color>
+    <color name="text_color_dark_large">#FFFFFF</color>
+    <color name="text_color_Light_large">#A1A1A1</color>
+    <color name="text_color_dark_small">#FFFFFF</color>
+    <color name="text_color_light_small">#727272</color>
+    <color name="text_color_hint_grey">#B6B6B6</color>
+    <color name="text_color_dark_grey">#555555</color>
+
+
+
+    <!--color used for text in app color  -->
+    <color name="icon_color_light">#FFFFFF</color>
+    <color name="icon_color_dark">#BABABA</color>
+    <color name="color_white_card_view_bg">#EEEEEE</color>
+    <color name="color_white_card_view_bg1">#28282B</color>
+
+    <!--color used for app icon  -->
+    <color name="color_icon_brown_two">#28282B</color>
+<!--    <color name="color_icon_brown_two">#D61A3C</color>-->
+    <color name="color_icon_brown">#8F2927</color>
+
+    <!-- Gradient Color -->
+    <color name="start_color">#CF7533</color>
+    <color name="center_color">#F5964E</color>
+    <color name="end_color">#FE8F3F</color>
+
+    <!-- Bullet color -->
+    <color name="bullet_color_red">#D61A3C</color>
+    <color name="bullet_color_green">#339966</color>
+    <color name="bullet_color_gold">#FFC107</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green1">#4CAF50</color>
+    <color name="red1">#F30B39</color>
+
+    <color name="bottoncolor">#4DB1DD</color>
+    //
+    <color name="color_heading_bold">#8F2927</color>
+    <color name="default_app_color">#D61A3C</color>
+    <color name="text_color_brown">#8F2927</color>
+
+
+    <!-- Text color-->
+    <color name="text_color_black">#28282B</color>
+    <color name="hint_text_color_gray">#AAAAAA</color>
+    <color name="hint_text_color_brown">#D61A3C</color>
+    <color name="color_status_bar">@color/white</color>
+<!--    <color name="color_status_bar">#C1272D</color>-->
+<!--    <color name="color_status_bar">#8F2927</color>-->
+
+    <color name="color_side_view_default">#8F2927</color>
+    <color name="et_border_stroke">#8F2927</color>
+    <color name="color_tab_indicator">@color/white</color>
+    <color name="color_side_view_api">#BECC3A</color>
+    <color name="color_side_view_bulk">#3F4FA5</color>
+    <color name="color_side_view_normal">#8F2927</color>
+    <color name="light_black">#6F6B6B</color>
+    <color name="deleteColor">#FF483B</color>
+    <color name="redd">#FF4133</color>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragFromEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="EditText">
+        <attr name="prefix" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="currencyEditText">
+        <attr name="groupDivider" format="string" />
+        <attr name="monetaryDivider" format="string" />
+        <attr name="locale" format="string" />
+        <attr name="showSymbol" format="boolean" />
+        <attr name="eraseWhenZero" format="boolean" />
+        <attr name="decimalPoints" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideToActView">
+        <attr name="text" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_style" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="area_margin" format="dimension" />
+        <attr name="icon_margin" format="dimension" />
+        <attr name="inner_color" format="color" />
+        <attr name="outer_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="border_radius" format="dimension" />
+        <attr name="slider_height" format="dimension" />
+        <attr name="animation_duration" format="integer" />
+        <attr name="bump_vibration" format="integer" />
+        <attr name="slider_locked" format="boolean" />
+        <attr name="slider_reversed" format="boolean" />
+        <attr name="slider_icon" format="reference" />
+        <attr name="slider_icon_color" format="color" />
+        <attr name="rotate_icon" format="boolean" />
+        <attr name="animate_completion" format="boolean" />
+        <attr name="text_appearance" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SlideToActViewTheme">
+        <attr name="slideToActViewStyle" format="reference" />
+    </declare-styleable>
+</resources>

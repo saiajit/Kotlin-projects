@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--in app color used -->
+
+    <!--color used for text in app color  -->
+
+    <!--color used for text in app color  -->
+
+
+    <!--color used for text in app color  -->
+
+    <!--color used for app icon  -->
+    <!--    <color name="color_icon_brown_two">#D61A3C</color>-->
+
+    <!-- Gradient Color -->
+
+    <!-- Bullet color -->
+
+    //
+
+
+    <!-- Text color-->
+    <!--    <color name="color_status_bar">#C1272D</color>-->
+<!--    <color name="color_status_bar">#8F2927</color>-->
+
+
+</resources>

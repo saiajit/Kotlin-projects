@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/_1sdp"
+        android:color="@color/color_divider_app"/>
+    <corners android:topLeftRadius="5dp"/>
+
+    <gradient
+        android:angle="45"
+        android:centerColor="#2C3E50"
+        android:centerX="35%"
+        android:endColor="#2C3E50"
+        android:startColor="#2C3E50"
+        android:type="linear" />
+<!--    <gradient-->
+<!--        android:angle="45"-->
+<!--        android:centerColor="#B63835"-->
+<!--        android:centerX="35%"-->
+<!--        android:endColor="@color/default_app_color"-->
+<!--        android:startColor="@color/default_app_color"-->
+<!--        android:type="linear" />-->
+</shape>

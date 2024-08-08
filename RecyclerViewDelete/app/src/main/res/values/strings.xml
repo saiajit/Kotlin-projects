@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Strings</string>
+
+    <!--to toggle the open close button
+        of the navigation drawer-->
+
+
+    <!--    <string name="api_pickups">I\nN\nT\nE\nR\nC\nH\nA\nN\nG\nE</string>-->
+    Deliver/Undeliver
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Logout dialog string -->
+
+    <!--    <string name="pickup_data_normal">N\nO\nR\nM\nA\nL</string>-->
+
+</resources>

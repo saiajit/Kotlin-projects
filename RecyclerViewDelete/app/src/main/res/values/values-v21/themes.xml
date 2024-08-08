@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/text_color_brown</item>
+        <item name="android:colorPrimary">@color/text_color_brown</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/text_color_black</item>
+        <!-- Used for the background -->
+        <item name="android:windowBackground">@drawable/bg_white_radius_12</item>
+    </style>
+</resources>

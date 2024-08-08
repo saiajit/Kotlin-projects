@@ -1,0 +1,19 @@
+
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/transparent_icon"
+    android:tileMode="repeat" />
+<!-- 
+/**
+ * 
+ * Developed by Ashish Das
+ * 
+ * Email: adas@revamobile.com ,adas@revasolutions.com
+ * 
+ * Date: December 14, 2012
+ * 
+ * All code (c) 2012 Reva Tech Solutions (India) Private Limited (Reva Mobile)
+ * 
+ * All rights reserved
+ * 
+ * 
+ */ -->

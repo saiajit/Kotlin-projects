@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!--
+// material code
+-->
+
+    <style name="Widget.MaterialComponents.TextInputLayout.FilledBox" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox</item>
+
+        //values: filled or outline
+        <item name="boxBackgroundMode">filled</item>
+
+        //a color for the box background
+        <item name="boxBackgroundColor">@color/mtrl_textinput_filled_box_default_background_color</item>
+
+        //if you set the .Dense sub-style this vallue is set to 8dp
+        <item name="boxCollapsedPaddingTop">12dp</item>
+
+        <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_small</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/mtrl_textinput_box_corner_radius_small</item>
+
+    </style>
+
+    <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="Widget.Design.TextInputLayout">
+
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxBackgroundColor">@null</item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+
+        <item name="boxCornerRadiusTopStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
+
+        //The highlight color. The activated hint, the underline for FilledBox, rectangle Stroke of OutlinedBox
+        <item name="boxStrokeColor">@color/text_color_brown</item>
+    </style>
+
+    <style name="Widget.Design.TextInputLayout" parent="android:Widget">
+        //Defaults the textinputlayout to the plain one, offered by older versions of support library.
+        <item name="boxBackgroundMode">none</item>
+        //Good old TextAppearance themes for hint, helper and error
+        <item name="hintTextAppearance">@style/TextAppearance.Design.Hint</item>
+        <item name="helperTextTextAppearance">@style/TextAppearance.Design.HelperText</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
+        //Good old TextAppearance for Input character count
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+
+        // Attributes for the passwordDrawable if your EditText inputType="password"
+        <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
+        <item name="passwordToggleTint">@color/black</item>
+        <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+    </style>
+
+
+</resources>
